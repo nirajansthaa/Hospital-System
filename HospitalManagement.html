@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="OPD.css" />
+    <title>Heal Pulse Hospital Pvt. Ltd</title>
+  </head>
+  <style>
+    body{
+      background-image: url(Hospital.webp);
+      background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:100% 100%;
+    }
+  </style>
+  <body>
+    <div class="form">
+      <form method="get" onsubmit="return false">
+        <h1>New Patient Registration</h1>
+        <label>OPD Number :</label>
+        <input id="opd-num" type="number" placeholder="OPD Number" required />
+        <label>Name :</label>
+        <input id="firstname" type="text" placeholder="First Name" required />
+        <input id="lastname" type="text" placeholder="Last Name" required />
+        <label>Address :</label>
+        <input id="address" type="text" placeholder="Address" required />
+        <label>Phone Number :</label>
+        <input id="phone-num" type="text" placeholder="Phone Number" required />
+        <label>Age :</label>
+        <input id="age" type="number" placeholder="Age" required />
+        <label>Sex :</label>
+        <input id="sex" type="text" placeholder="Sex" required />
+        <tr>
+          <td>
+            <a href="Hospitalsite.html"></a>
+        <input id="submitData" type="submit" value="Save Data" />
+        </td>
+      </tr>
+      <button id="delete-btn">Delete Data</button>
+      </form>
+    </div>
+    <script src="DataBackup.js"></script>
+  </body>
+</html>
